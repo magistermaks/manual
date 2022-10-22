@@ -12,9 +12,9 @@ $alises = array(
 	"\\H\\" => "<img src=\"images/icons/harbor.png\" alt=\"Harbor\" title=\"Harbor\" class=\"icon\">",
 	"\\FENCE\\" => "<img src=\"images/icons/fence.gif\" alt=\"Fence\" title=\"Fence\" class=\"icon\">",
 	"\\WALL\\" => "<img src=\"images/icons/wall.gif\" alt=\"Wall\" title=\"Wall\" class=\"icon\">",
-	"\\COASTAL\\" => "<img src=\"images/icons/coastal.gif\" alt=\"Coastal Defences\" title=\"Coastal Defences\" class=\"icon\">",
+	"\\COASTAL\\" => "<img src=\"images/icons/coastal.gif\" alt=\"Coastal Defenses\" title=\"Coastal Defenses\" class=\"icon\">",
 	"\\SURFACE_DEPOSIT\\" => "<img src=\"images/icons/surface_deposit.png\" alt=\"Surface Deposit\" title=\"Surface Deposit\" class=\"icon\">",
-	"\\2\\" => "<img src=\"images/icons/dice_2.png\" alt=\"A dice with a number '2' on it\" title=\"A dice with a number '2' on it\" class=\"icon\">",
+	"\\2\\" => "<img src=\"images/icons/dice_2.png\" alt=\"A die with a number '2' on it\" title=\"A die with a number '2' on it\" class=\"icon\">",
 
 	// symbols
 	"\\UNIT_CROSS\\" => "<img src=\"images/icons/cross_unit.png\" alt=\"Unit of The Cross\" title=\"Unit of The Cross\" class=\"icon\">",
