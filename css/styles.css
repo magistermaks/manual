@@ -1,0 +1,172 @@
+@import "pages.css";
+
+/* Sheets of Paper Config */
+
+.page {
+	width: 21cm;
+	height: 29.7cm;
+
+	padding-left: 2cm;
+	padding-top: 1cm;
+	padding-right: 2cm;
+	padding-bottom: 1cm;
+
+	position: relative;
+}
+
+@page {
+	size: A4 portrait;
+
+	margin-left: 2cm;
+	margin-top: 1cm;
+	margin-right: 2cm;
+	margin-bottom: 1cm;
+}
+
+/* Page Styles */
+
+
+.footer {
+	bottom: 0px;
+	position: absolute;
+	opacity: 0.5;
+	font-size: small;
+	padding: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer.left {
+	left: 0px;
+}
+
+.footer.right {
+	right: 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.columns {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.columns > div {
+	width: 50%;
+	padding: 1em;
+	text-align: left;
+}
+
+.icon {
+	height: 1.2em;
+	margin-bottom: -4px;
+
+	/*
+		There are some issues on chrome that require this property to be set
+		(At least for some time if it's disabled later it still works Hmmm)
+	*/
+	/*height: 20px;*/
+}
+
+.image {
+	width: 100%;
+    border-radius: 0.8em;
+	transition: transform .2s;
+}
+
+.image:hover {
+	transform: scale(1.075);
+}
+
+.spotlight {
+	height: 2.9em;
+	margin-bottom: -4px;
+}
+
+.image.spaced {
+	padding: 1em;
+	border-radius: 1.8em;
+}
+
+a {
+	color: black;
+	font-style: italic;
+}
+
+.content-link {
+	font-style: initial;
+	text-transform: capitalize;
+}
+
+.smaller {
+	font-size: smaller;
+}
+
+span.nowrap {
+	white-space: nowrap;
+}
+
+h1 {
+	margin-top: 0.5em;
+	margin-bottom: 0px;
+}
+
+h3 {
+	margin-top: 0px;
+}
+
+ul {
+	margin: 0px;
+}
+
+.vtable {
+	border-collapse: collapse;
+  	width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	box-sizing: border-box;
+}
+
+.vtable tr:hover {
+	background-color: #e8e8e8;
+}
+
+.vtable th, .vtable td {
+	border: 1px solid black;
+	padding: 4px;
+	text-align: center
+}
+
+.vtable th {
+	border-top: none;
+	background-color: #d5d5d5;
+}
+
+.document {
+	/* to avoid FOUC */
+	visibility: visible !important;
+}
+
+#source {
+	padding: 0.75em;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+
+#source > * {
+    opacity: 0.4;
+}
+
+#source > a:hover {
+	opacity: 1.0;
+}
+
+#subtitle {
+	/*position: sticky;
+	top: 0.5em;*/
+	background-color: #dbdbdb;
+	padding: 5px;
+}
+
