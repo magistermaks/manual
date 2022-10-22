@@ -36,7 +36,7 @@
 		?>
 
 		<div id="source">
-			<span>View source on</span> <a class="content-link" href="https://github.com/magistermaks">Github</a>
+			<span>View source on</span> <a class="content-link" href="https://github.com/magistermaks/manual">Github</a>
 		</div>
 
 	</body>
