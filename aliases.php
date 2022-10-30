@@ -2,8 +2,8 @@
 
 $alises = array(
 	"\\TODO\\" => "<span style=\"color: red;\">TODO:</span>",
-    "\\CAPITAL\\" => "<img loading=\"lazy\" src=\"images/icons/infa_capital.png\" alt=\"Capital of Infa\" title=\"Capital of Infa\" class=\"icon\">",
-    "\\UNIT\\" => "<img loading=\"lazy\" src=\"images/icons/infa_unit.png\" alt=\"Unit of Infa\" title=\"Unit of Infa\" class=\"icon\">",
+	"\\CAPITAL\\" => "<img loading=\"lazy\" src=\"images/icons/infa_capital.png\" alt=\"Capital of Infa\" title=\"Capital of Infa\" class=\"icon\">",
+	"\\UNIT\\" => "<img loading=\"lazy\" src=\"images/icons/infa_unit.png\" alt=\"Unit of Infa\" title=\"Unit of Infa\" class=\"icon\">",
 	"\\N\\" => "<img loading=\"lazy\" src=\"images/icons/launcher.png\" alt=\"Rocket Launcher\" title=\"Rocket Launcher\" class=\"icon\">",
 	"\\B\\" => "<img loading=\"lazy\" src=\"images/icons/bomb_factory.png\" alt=\"Bomb Factory\" title=\"Bomb Factory\" class=\"icon\">",
 	"\\S\\" => "<img loading=\"lazy\" src=\"images/icons/shield.png\" alt=\"Shield\" title=\"Shield\" class=\"icon\">",
