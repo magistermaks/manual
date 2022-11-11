@@ -61,12 +61,6 @@
 .icon {
 	height: 1.2em;
 	margin-bottom: -4px;
-
-	/*
-		There are some issues on chrome that require this property to be set
-		(At least for some time if it's disabled later it still works Hmmm)
-	*/
-	/*height: 20px;*/
 }
 
 .image {
@@ -164,9 +158,8 @@ ul {
 }
 
 #subtitle {
-	/*position: sticky;
-	top: 0.5em;*/
 	background-color: #dbdbdb;
 	padding: 5px;
 }
+
 

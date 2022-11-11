@@ -6,7 +6,7 @@
 		<meta name="description" content="Warzone Digital Manual">
 		<title>Warzone Manual</title>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=0.46">
 		<link rel="icon" href="favicon.png">
 	</head>
 
