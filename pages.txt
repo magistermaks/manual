@@ -1,18 +1,21 @@
-pages/introduction.html
-pages/basics.html
-pages/statistics.html
-pages/building.html
-pages/building_2.html
-pages/structures.html
-pages/colonization.html
-pages/bombs.html
-pages/units.html
-pages/units_2.html
-pages/water.html
-pages/water_2.html
-pages/cities.html
-pages/cities_2.html
-pages/colonies.html
-pages/losing.html
-pages/upgrades.html
-pages/trading.html
+P pages/title.html
+  pages/introduction.html
+  pages/basics.html
+  pages/statistics.html
+  pages/building.html
+  pages/building_2.html
+  pages/building_3.html
+  pages/structures.html
+  pages/colonization.html
+  pages/bombs.html
+  pages/units.html
+  pages/units_2.html
+  pages/water.html
+  pages/water_2.html
+  pages/water_3.html
+  pages/cities.html
+  pages/cities_2.html
+  pages/colonies.html
+  pages/losing.html
+  pages/upgrades.html
+  pages/trading.html

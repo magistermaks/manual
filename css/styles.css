@@ -1,3 +1,4 @@
+
 @import "pages.css";
 
 /* Sheets of Paper Config */
@@ -67,6 +68,8 @@
 	width: 100%;
     border-radius: 0.8em;
 	transition: transform .2s;
+	
+	/*filter: drop-shadow(4px 4px black);*/
 }
 
 .image:hover {
@@ -127,7 +130,7 @@ ul {
 }
 
 .vtable th, .vtable td {
-	border: 1px solid black;
+	border: thin solid black;
 	padding: 4px;
 	text-align: center
 }
@@ -161,5 +164,14 @@ ul {
 	background-color: #dbdbdb;
 	padding: 5px;
 }
+
+@media print {
+
+	#title {
+		display: flex;
+	}
+
+}
+
 
 

@@ -16,19 +16,41 @@
 
 			require_once "aliases.php";
 
-			$pages = explode("\n", trim(file_get_contents("pages.txt"), "\n "));
-			$total = count($pages);
+			$pages = [];
+			$lines = explode("\n", trim(file_get_contents("pages.txt"), "\n"));
+			$total = 0;
 			$index = 0;
+
+			foreach ($lines as $line) {
+				
+				$mode = substr($line, 0, 1);
+				$path = substr($line, 2);
+
+				if ($mode != 'P') $total += 1;
+
+				$pages[] = [$mode, $path, $total];
+
+			}
 
 			foreach ($pages as $page) {
 
-				$index ++;
-				$name = pathinfo($page)["filename"];
+				list($mode, $path, $index) = $page;
 
-				echo "<div class=\"page\" id=\"$name\">";
-				echo replace_aliases(file_get_contents($page));
-				echo "<div class=\"footer left\">Warzone Open Rules Manual © magistermaks " . date("Y") . "</div>";
-				echo "<div class=\"footer right\">Page $index/$total</div>";
+				$name = pathinfo($path)["filename"];
+				$class = "page";
+				
+				if ($mode == 'P') {
+					 $class = "$class print-only";
+				}
+
+				echo "<div class=\"$class\" id=\"$name\">";
+				echo replace_aliases(file_get_contents($path));
+
+				if ($mode != 'P') {
+					echo "<div class=\"footer left\">Warzone Open Rules Manual © magistermaks " . date("Y") . "</div>";
+					echo "<div class=\"footer right\">Page $index/$total</div>";
+				}
+
 				echo "</div>";
 
 			}

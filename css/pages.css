@@ -122,6 +122,10 @@ table {
 	widows: 2;
 }
 
+.print-only {
+	display: none;
+}
+
 /* When the document is actually printed */
 @media print {
 	html, body {
@@ -136,15 +140,16 @@ table {
 		width: initial !important;
 		min-height: initial !important;
 		margin: 0 !important;
-		padding: 0 !important;
-		border: initial !important;
-		border-radius: initial !important;
 		background: initial !important;
 		box-shadow: initial !important;
 
 		/* Force page breaks after each .page element of the document */
 		page-break-after: always;
 		position: relative;
+	}
+
+	.print-only {
+		display: auto;
 	}
 
 	.footer, #source {
